@@ -8,14 +8,13 @@ html {
     background: #fff;
     font-size: 20px;
     font-weight: 400;
-    color: #555;
+    color: white;
     text-rendering: optimizeLegibility;
-    font-family: lato, arial;
+    font-family: 'Lato';
 }
 
 .row {
     max-width: 1140px;
-    background-color: red;
     margin: 0 auto;
 }
 
@@ -36,16 +35,20 @@ html {
 
 header {
     /* background-color: aqua;*/
-    background-image: linear-gradient(rgba(255, 165, 33, 0.7), rgba(49, 255, 81, 0.7)), url(/Resources/img/cygne.jpg);
+    background-image: /* linear-gradient(rgba(255, 165, 33, 0.7), rgba(49, 255, 81, 0.7)),*/
+    url(/Resources/img/cygne.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
 
+/****BUTTON****/
+
 .btn:link,
 .btn:visited {
     display: inline-block;
     text-decoration: none;
+    color: black;
     padding: 10px 30px;
     margin: 10px 10px;
     font-weight: 300;
@@ -62,22 +65,53 @@ header {
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 2px solid #e67e22;
+    color: white;
 }
 
 .btn:hover,
-.btn:active{
-  /*  background-color: #eee;*/
+.btn:active {
+    /*  background-color: #eee;*/
 }
+
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active {
     background-color: #eee;
 }
+
 .btn-ghost:hover,
-.btn-ghost:active{
-    border:2px solid #eee;
+.btn-ghost:active {
+    border: 2px solid #eee;
+    background-color: #eee;
+    color: black;
 }
 
+/****BUTTON fin****/
 
+/****NAV****/
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+/****NAV fin****/
 
 /*----------------------*/
 
