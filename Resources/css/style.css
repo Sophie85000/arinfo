@@ -58,13 +58,13 @@ header {
 
 .btn-full:link,
 .btn-full:visited {
-    border: 2px solid #e67e22;
+    border: 2px solid grey;
     background-color: #fff;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 2px solid #e67e22;
+    border: 2px solid grey;
     color: white;
 }
 
