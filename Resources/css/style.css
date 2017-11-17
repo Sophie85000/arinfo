@@ -16,6 +16,7 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    color: black;
 }
 
 
@@ -40,6 +41,9 @@ header {
     background-size: cover;
     height: 100vh;
     background-position: center;
+}
+h1{
+    color: white;
 }
 
 /****BUTTON****/
