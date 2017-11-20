@@ -43,6 +43,7 @@ h1,
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    color: white;
 }
 
 h2,
@@ -114,6 +115,7 @@ header {
 .btn-full:visited {
     border: 2px solid grey;
     background-color: #fff;
+    margin-left: 20%;
 }
 
 .btn-ghost:link,
@@ -154,6 +156,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    margin-left: 20%;
 }
 
 .main-nav li {
@@ -186,7 +189,7 @@ header {
 
 .icon-big {
     font-size: 350%;
-    color: coral;
+    color: dimgrey;
 }
 /*--Galerie photos------*/
 
@@ -204,8 +207,7 @@ header {
     width: 100%;    /*le navigateur calcule la largeur*/
     margin: 0;
     overflow: hidden; /*(2)comportement à appliquer à un élément lorsque le contenu dépasse la taille voir PDF*/
-    background-color: black;  /* (6)  */
-    
+    background-color: black;  /* (6)  */ 
 }
 
 .photos img {
