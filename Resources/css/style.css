@@ -203,15 +203,23 @@ header {
 .photos {
     width: 100%;    /*le navigateur calcule la largeur*/
     margin: 0;
+    overflow: hidden; /*(2)comportement à appliquer à un élément lorsque le contenu dépasse la taille voir PDF*/
+    background-color: black;  /* (6)  */
     
 }
 
 .photos img {
     width: 100%;    /* doit être à 100% afficher entièrement l'image*/
     height: auto;   /*le navigateur calcule la hauteur*/
+    transform: scale(1.5); /* (1) zoom sur un élément voir PDF*/
+    transition: transform 2s, opacity 2s;  /* (4) effet de transition */
+    opacity: 0.4;  /* (5) effet oppacité */
 }
 
-
+.photos img:hover {
+    transform: scale(1);  /* (3) repasse à l'échelle 1 */
+    opacity: 1;
+}
 
 
 
