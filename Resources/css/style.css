@@ -65,11 +65,6 @@ h2:after { /* Permet d'insérer un élément avant ou après*/
     margin-top: 30px;
 }
 
-
-
-
-
-
 /*----------------------*/
 
 /* TITRE fin*/
@@ -193,3 +188,33 @@ header {
     font-size: 350%;
     color: coral;
 }
+/*--Galerie photos------*/
+
+.range-photos{
+    list-style: none;   /* supprime affichage liste*/
+    width: 100%;
+}
+
+.range-photos li {
+    display: block;  /*transforme les éléments en blocks*/
+    float: left;     /* tous les éléments se collent sur la gauche*/
+    width: 25%;      /* chaque block aura une largeur de 25%*/
+}
+.photos {
+    width: 100%;    /*le navigateur calcule la largeur*/
+    margin: 0;
+    
+}
+
+.photos img {
+    width: 100%;    /* doit être à 100% afficher entièrement l'image*/
+    height: auto;   /*le navigateur calcule la hauteur*/
+}
+
+
+
+
+
+
+
+/*--Galerie photos fin---*/
