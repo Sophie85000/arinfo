@@ -19,6 +19,9 @@ html {
     color: black;
 }
 
+section {
+    margin: 80px 0;
+}
 
 
 
@@ -193,6 +196,19 @@ header {
 }
 /*--Galerie photos------*/
 
+.clearfix {zoom:1}
+
+.clearfix:after {
+    /* content: "."; */
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.galerie-photos {
+    padding: 0;
+}
 .range-photos{
     list-style: none;   /* supprime affichage liste*/
     width: 100%;
