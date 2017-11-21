@@ -23,7 +23,9 @@ section {
     margin: 80px 0;
 }
 
-
+:before {
+    box-sizing: border-box;
+}
 
 /*----------------------*/
 
@@ -361,4 +363,38 @@ h4 {
 
 .coordonnees li a {
     color: orange;
+}
+
+blockquote {
+    padding: :2%;
+    font-style: :italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    quotes: "\201C""\201D""\2018""\2019";
+    
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+blockquote:before {
+    content:"\201C";
+    font-size: 300%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+blockquote:after{
+    content: "\201D";
+    font-size: 300%;
+    display: block;
+    position: bottom;
+    top: -5px;
+    left: -5px;
+    padding-left: 80%;
 }
