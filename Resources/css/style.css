@@ -408,21 +408,47 @@ cite {
 /*--footer---*/
 
 
+footer {
+    background-color: grey;
+}
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    margin-top: 55px
+}
+.col-md-6 li {
+    list-style: none;
+    color: white;
+}
+
+.reseaux-sociaux-nav {
+    color: white;
+    float: right;
+    list-style: none;
+   
+}
+.reseaux-sociaux-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.footer-nav {
+    float:left;
+    color: white;
+}
+.footer-nav li {
+    display: inline-block;
+    list-style: none;
+}
+.footer-nav a {
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+}
+footer p{
+    color: white;
+    margin-left: 50%;
+    font-size: 12px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--footer fin---*/
