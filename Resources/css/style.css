@@ -202,16 +202,14 @@ header {
 .icon-vert {
     display: inline-block;
     width: 30px;
-    text-align: center;
-    color: green;
+    text-align: center; 
     margin-right: 10px;
 }
 
 .icon-rouge {
     display: inline-block;
     width: 30px;
-    text-align: center;
-    color: red;
+    text-align: center; 
     margin-right: 10px;
 }
 
@@ -275,7 +273,7 @@ header {
     background: #fff;
     border: 1px solid #000;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px gainsboro;
+    box-shadow: 0px 2px 5px;
 }
 
 .plan-box div {
@@ -284,7 +282,7 @@ header {
 }
 
 .plan-box div:first-child {
-    background-color: gainsboro;
+    background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
@@ -327,14 +325,17 @@ header {
 
 .ion-ios-location {
     color: orange;
+    margin-right: 5px;
 }
 
 .ion-ios-telephone {
     color: orange;
+    margin-right: 5px;
 }
 
 .ion-email {
     color:orange;
+    margin-right: 5px;
 }
 
 .ion-email a {
