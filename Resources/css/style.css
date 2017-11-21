@@ -347,3 +347,18 @@ header {
 .ion-email a {
     text-decoration-color: orange;
 }
+
+.col-md-3 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h4 {
+        font-size: 20px;
+        font-weight: 400;
+}
+
+.coordonnees li a {
+    color: orange;
+}
