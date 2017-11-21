@@ -52,7 +52,7 @@ h1,
 h2,
 .h2 {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 180%;
     word-spacing: 2px;
     letter-spacing: 1px;
@@ -83,6 +83,7 @@ h2:after { /* Permet d'insérer un élément avant ou après*/
 
 .formation-text-box {
     position: absolute;
+    color: white;
     width: 1140px;
     top: 50%;
     left: 25%;
@@ -194,6 +195,24 @@ header {
     font-size: 350%;
     color: dimgrey;
 }
+
+.icon-vert {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: green;
+    margin-right: 10px;
+}
+
+.icon-rouge {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: red;
+    margin-right: 10px;
+}
+
+
 /*--Galerie photos------*/
 
 .clearfix {zoom:1}
@@ -239,8 +258,56 @@ header {
     opacity: 1;
 }
 
-
-
-
-
 /*--Galerie photos fin---*/
+
+/*--------------------------------*/
+/* TABLEAU PRIX */
+/*--------------------------------*/
+
+
+#price {
+    background: #fff;
+}
+.plan-box {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px gainsboro;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #000;   
+}
+
+.plan-box div:first-child {
+    background-color: gainsboro;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.plan-box div:last-child {
+    text-align: center;
+}
+
+
+.plan-box ul {
+    list-style: none;
+
+
+}
+
+.plan-box ul li {
+}
+
+
+
+
+
+
+
+
+
+
+
+
