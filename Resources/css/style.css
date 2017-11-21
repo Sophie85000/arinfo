@@ -303,16 +303,7 @@ header {
 .plan-box ul li {
 }
 
-
-
-
-
-
-
-
-
-
-
+/*--nos centres---*/
 
 
 .coordonnees {
@@ -364,10 +355,12 @@ h4 {
 .coordonnees li a {
     color: orange;
 }
+/*--nos centres fin---*/
 
+/*--nos references---*/
 blockquote {
     padding: :2%;
-    font-style: :italic;
+    font-style: italic;
     line-height: 145%;
     position: relative;
     margin-top: 40px;
@@ -398,3 +391,38 @@ blockquote:after{
     left: -5px;
     padding-left: 80%;
 }
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+cite {
+    margin-top: 25px;
+    display: block;
+}
+/*--nos references fin---*/
+
+/*--footer---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--footer fin---*/
