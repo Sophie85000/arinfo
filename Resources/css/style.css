@@ -33,7 +33,8 @@ section {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-weight: 300;
     text-transform: uppercase;
     
@@ -311,3 +312,38 @@ header {
 
 
 
+
+.coordonnees {
+    list-style: none;   /* supprime affichage liste*/
+    width: 100%;
+}
+
+.coordonnees li display: block;  /*transforme les éléments en blocks*/
+    float: left;     /* tous les éléments se collent sur la gauche*/
+    width: 25%;      /* chaque block aura une largeur de 25%*/
+}
+
+.photo-centre img {
+    width: 100%;    /* doit être à 100% afficher entièrement l'image*/
+    height: auto; 
+}
+
+#nos-centres-de-formation {
+    padding: 0;
+}
+
+.ion-ios-location {
+    color: orange;
+}
+
+.ion-ios-telephone {
+    color: orange;
+}
+
+.ion-email {
+    color:orange;
+}
+
+.ion-email a {
+    text-decoration-color: orange;
+}
